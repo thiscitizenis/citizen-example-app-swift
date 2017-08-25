@@ -1,0 +1,10 @@
+framework module CitizenSDK {
+  umbrella header "CitizenSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module CitizenSDK.Swift {
+    header "CitizenSDK-Swift.h"
+}
